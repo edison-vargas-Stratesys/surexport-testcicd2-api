@@ -8,7 +8,6 @@ on:
 jobs:
   build-dev:
     runs-on: ubuntu-latest
-    if: github.base_ref == 'dev' && startsWith(github.head_ref, 'merge/') && endsWith(github.head_ref, '_dev')
     environment: DEV
     steps:
     - name: Checkout this repo
