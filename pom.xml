@@ -6,7 +6,6 @@
 	<artifactId>surexport-testcicd2-api</artifactId>
 	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
-
 	<name>surexport-testcicd2-api</name>
 	<description>Project for test cicd on github</description>
 	<properties>
